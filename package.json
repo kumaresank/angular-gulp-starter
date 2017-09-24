@@ -1,0 +1,36 @@
+{
+    "name": "angular-gulp-starter",
+    "version": "1.0.0",
+    "description": "Angular Starter using gulp build tool",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "angular",
+        "gulp",
+        "browser sync",
+        "html",
+        "css",
+        "js",
+        "watch"
+    ],
+    "author": "Kumaresan K <tkkumaresan@gmail.com> (https://github.com/kumaresank)",
+    "license": "ISC",
+    "repository": {
+        "url": "https://github.com/kumaresank/angular-gulp-starter.git"
+    },
+    "dependencies": {
+        "angular": "^1.6.6",
+        "angular-route": "^1.6.6"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.18.13",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^3.9.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-htmlnano": "^0.1.0",
+        "gulp-uglify": "^3.0.0",
+        "pump": "^1.0.2"
+    }
+}
